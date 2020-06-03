@@ -1,0 +1,153 @@
+body{
+    background-color: #999;
+    color: white;
+    font-size: 24px;
+    font-family: 'Courier New', monospace;
+    border-radius: 10px;
+}
+#kontener{
+    background-color: #444;
+    width: 1000px;
+    height: 680px;
+    margin-right: auto;
+    margin-left: auto;
+    border-radius: 10px;
+}
+#plansza{
+    margin: 25px;
+    height: 630px;
+    float: left;
+    width: 600px;
+    background-color: #555;
+    border-radius: 10px;
+}
+#ustawienia{
+    border-radius: 10px;
+    margin: 25px;
+    float: left;
+    height: 630px;
+    width: 300px;
+    background-color: #555;
+}
+#stopka{
+    margin: auto;
+    margin-top: 5px;
+    clear: both;
+    height: 30px;
+    width: 1000px;
+    background-color: #222;
+    text-align: center;
+    font-style: italic;
+    border-radius: 10px;
+}
+.wiersz{
+    margin-left: 15px;
+    margin-right: 15px;
+    width: 570px;
+    height: 190px;
+}
+#wiersz1{
+    margin-top: 30px;
+    border-bottom: 3px solid white;
+}
+#wiersz2{
+    border-bottom: 3px solid white;
+}
+.kolumnasr{
+    border-left: 3px solid white;
+    border-right: 3px solid white;
+}
+.pole, .polekolumnasr{
+    float:left;
+    width: 188px;
+    height: 165px;
+    text-align: left;
+    padding-top: 25px;
+    font-size: 135px;
+}
+.pole:hover, .polekolumnasr:hover{
+    background-color: #444;
+    float:left;
+    width: 188px;
+    height: 165px;
+    text-align: left;
+    padding-top: 25px;
+    font-size: 135px;
+}
+.wybor{
+    width: 120px;
+    height: 120px;
+}
+
+#win{
+    background-color: #444;
+    margin: 20px;
+    text-align: center;
+    font-weight: 700;
+    font-size: 40px;
+    color: crimson;
+    border: 2px dashed crimson;
+    border-radius: 10px;
+}
+#zasady{
+    background-color: #444;
+    margin: 20px;
+    border: 2px dashed crimson;
+    font-size: 20px;
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+}
+#opcje{
+    background-color: #444;
+    margin: 20px;
+    border: 2px dashed crimson;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+}
+.zaczyna:hover{
+    color: crimson;
+    cursor: pointer;
+}
+#odswiez{
+    background-color: #444;
+    color: crimson;
+    font-weight: 700;
+    margin: 20px;
+    border: 2px dashed crimson;
+    font-size: 26px;
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+}
+#odswiez:hover{
+    background-color: #222;
+    color: white;
+    margin: 20px;
+    border: 2px dashed crimson;
+    font-size: 26px;
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+}
+#media{
+    background-color: #444;
+    margin: 20px;
+    border: 2px dashed crimson;
+    font-size: 16px;
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+}
+a{
+    color: white;
+}
+a:hover{
+    color: crimson;
+    cursor: pointer;
+}
+a:visited{
+    color: white;
+}
